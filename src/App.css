@@ -1,0 +1,128 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+/* resets  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+body{
+  
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: orange;
+  background-image: url(/src/assets/Password.jpg);
+  background-size: cover;
+  background-position: center;
+
+  
+}
+
+.passward_container{
+ 
+  max-width: 400px;
+  width: 100%;
+ 
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 12px 18px rgba(0,0,0,0.8);
+  color: black;
+ 
+}
+
+h3{
+  font-size: 17px;
+}
+
+.input_box{
+ 
+  width: 100%;
+  background-color: red;
+  margin-block: 20px;
+  border-radius: 3px;
+  position: relative;
+ 
+}
+
+.input_box input{
+ width: 100%;
+ height: 100%;
+ border: 2px solid black;
+ outline: none;
+ padding: 10px;
+ border-radius: 3px;
+ font-weight: bold;
+ position: relative;
+ font-size: 15ipx;
+
+}
+
+.btn{
+  padding: 8px 10px;
+  width: 35%;
+  background-color: orangered;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.4s ease-in;
+}
+
+.btn:active{
+ transform: scale(.95);
+}
+
+.far{
+
+  position: absolute;
+  right: 10px;
+  transform: translateY(50%);
+  font-size: 18px;
+  cursor: pointer;
+  color: white;
+ 
+}
+.active{
+  color:grey; 
+}
+.copied{
+  text-align: right;
+  color: grey;
+  font-weight: bold;
+  font-size: 12px;
+  transition: all 0.3s ease-in-out;
+  margin-top: 10px;
+  color: green;
+ 
+}
+
+
+.btn_container{
+  display: flex;
+  justify-content: center;
+}
+
+.radio-btn{
+  display: flex;
+  gap: 10px;
+}
+
+.number{
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.number-check{
+ margin: 0 6px;
+}
